@@ -7,7 +7,7 @@ import { VitePWA } from 'vite-plugin-pwa'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: process.env.NODE_ENV === 'production' ? '/info4340-2023sp/what-a-vue-project/' : './',
+  base: process.env.NODE_ENV === 'production' ? '/phd-visit-day/' : './',
     plugins: [
       vue(),
       Icons({
