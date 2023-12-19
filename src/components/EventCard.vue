@@ -11,7 +11,7 @@ defineProps({
 })
 </script>
 <template>
-    <b-button class="card" variant="outline-secondary" style="width: 100%; text-align:left; margin-bottom:12px; margin-top:0px;" :to="`/events/${currRoute}`">
+    <b-button class="card" variant="outline-secondary" style="width: 100%; text-align:left; margin-bottom:12px; margin-top:0px; background-color: transparent; " :to="`/events/${currRoute}`">
         <!-- reference: https://bootstrap-vue.org/docs/components/card-->
         <div class="time">
             <h4>{{ currFixture.start_time }} &#150; {{ currFixture.end_time }} </h4>
@@ -85,7 +85,7 @@ defineProps({
 
 .event-tag {
     background-color: #e1f1f2;
-    color: #00a0b0;
+    color: #007787;
 }
 
 .attendees-flex {

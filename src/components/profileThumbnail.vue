@@ -62,7 +62,7 @@ export default {
 }
 
 .subtitle {
-  color: gray;
+  color: #767676;
 }
 
 .name {

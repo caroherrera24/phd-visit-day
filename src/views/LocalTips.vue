@@ -9,15 +9,15 @@ import Attractions from '@/components/Attractions.vue'
         <b-row style="padding: 0px;">
             <!-- <b-img :src="`${baseDir}./images/${fixture.img[0]}`" ></b-img> -->
 
-          <b-carousel  :interval="4000" controls indicators style="padding: 0px;">
+          <b-carousel :interval="4000" controls indicators style="padding: 0px;">
             <b-carousel-slide :img-src="`${baseDir}images/${fixture.img[0]}`"
-              class="img-fluid, padding-0" img-width="60%" img-height="auto"></b-carousel-slide>
+              class="img-fluid padding-0" img-width="60%" img-height="auto"></b-carousel-slide>
             <b-carousel-slide :img-src="`${baseDir}images/${fixture.img[1]}`"
-              class="img-fluid, padding-0" img-width="60%" img-height="auto"></b-carousel-slide>
+              class="img-fluid padding-0" img-width="60%" img-height="auto"></b-carousel-slide>
             <b-carousel-slide :img-src="`${baseDir}images/${fixture.img[2]}`"
-              class="img-fluid, padding-0" img-width="60%" img-height="auto"></b-carousel-slide>
+              class="img-fluid padding-0" img-width="40%" img-height="auto"></b-carousel-slide>
             <b-carousel-slide :img-src="`${baseDir}images/${fixture.img[3]}`"
-              class="img-fluid, padding-0" img-width="60%" img-height="auto"></b-carousel-slide>
+              class="img-fluid padding-0" img-width="60%" img-height="auto"></b-carousel-slide>
           </b-carousel>
 
 
@@ -27,7 +27,7 @@ import Attractions from '@/components/Attractions.vue'
             <b-card-text>
               <h3>{{ fixture.name }}</h3>
               {{ fixture.info }} <br /><br />
-              <b-badge class="tagss ml" v-for="tag in fixture.tags">{{ tag }}</b-badge>
+              <b-badge class="tags ml" v-for="tag in fixture.tags">{{ tag }}</b-badge>
             </b-card-text>
           </b-card-body>
         </b-col>
@@ -80,8 +80,8 @@ img {
   box-shadow: none;
 }
 
-.tagss {
-  font-size: 18px;
+.tags {
+  font-size: 12px !important; 
   font-weight: 500;
   margin-right: 8px;
   margin-bottom: 8px;

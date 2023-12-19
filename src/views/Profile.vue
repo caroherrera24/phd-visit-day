@@ -61,8 +61,10 @@ import IBiTelephoneFill from '~icons/bi/telephone-fill' //not working
                         <span class="icon">
                             <i-bi-link />
                         </span>
-                        <a :href="fixtures.students[$route.params.person].website">{{ fixtures.students[
-                            $route.params.person].website }}</a>
+                        <a :href="fixtures.students[$route.params.person].website" v-if="fixtures.students[$route.params.person].name != 'Jack Dorsey'">
+                            {{ fixtures.students[$route.params.person].website }}
+                        </a>
+                        <span v-else>{{ fixtures.students[$route.params.person].website }}</span>
                     </span>
                 </b-row>
             </b-row>
@@ -210,17 +212,17 @@ h1 {
 
 #linkedin {
     background-color: #cde8fa;
-    color: #3b7296;
+    color: #346b8f;
 }
 
 #phone {
     background-color: #dbdbdb;
-    color: #696969;
+    color: #606060;
 }
 
 #instagram {
     background-color: #facdeb;
-    color: #ad3184;
+    color: #a82c7f;
 }
 
 #email {
@@ -230,7 +232,7 @@ h1 {
 
 #website {
     background-color: #e2f2df;
-    color: #5e7d59;
+    color: #557450;
 }
 
 .content-row {
