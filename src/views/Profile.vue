@@ -40,7 +40,10 @@ import IBiTelephoneFill from '~icons/bi/telephone-fill' //not working
                         <span class="icon">
                             <i-bi-linked-in />
                         </span>
-                        {{ fixtures.students[$route.params.person].linkedin }}
+                        <a :href="fixtures.students[$route.params.person].linkedin" v-if="fixtures.students[$route.params.person].name != 'Jack Dorsey'">
+                            {{ fixtures.students[$route.params.person].linkedin }}
+                        </a>
+                        <span v-else>{{ fixtures.students[$route.params.person].linkedin }}</span>
                     </span>
                     <!-- Instagram -->
                     <span class="pill" id="instagram">
@@ -54,7 +57,10 @@ import IBiTelephoneFill from '~icons/bi/telephone-fill' //not working
                         <span class="icon">
                             <i-bi-envelope />
                         </span>
-                        {{ fixtures.students[$route.params.person].email }}
+                        <a :href="'mailto:' + fixtures.students[$route.params.person].email"  v-if="fixtures.students[$route.params.person].name != 'Jack Dorsey'">
+                            {{ fixtures.students[$route.params.person].email }}
+                        </a>
+                        <span v-else>{{ fixtures.students[$route.params.person].email }}</span>
                     </span>
                     <!-- Website -->
                     <span class="pill" id="website">
@@ -116,7 +122,9 @@ import IBiTelephoneFill from '~icons/bi/telephone-fill' //not working
                         <span class="icon">
                             <i-bi-envelope />
                         </span>
-                        {{ fixtures.faculty[$route.params.person].email }}
+                        <a :href="'mailto:' + fixtures.students[$route.params.person].email">
+                            {{ fixtures.faculty[$route.params.person].email }}
+                        </a>
                     </span>
                 </b-row>
             </b-row>
@@ -215,6 +223,10 @@ h1 {
     color: #346b8f;
 }
 
+#linkedin a {
+    color: #346b8f;
+}
+
 #phone {
     background-color: #dbdbdb;
     color: #606060;
@@ -230,8 +242,16 @@ h1 {
     color: #a3182b;
 }
 
+#email a {
+    color: #a3182b;
+}
+
 #website {
     background-color: #e2f2df;
+    color: #557450;
+}
+
+#website a {
     color: #557450;
 }
 
@@ -244,7 +264,7 @@ h1 {
     background-color: #e3e1e1;
 }
 
-a {
-    color: #5e7d59;
+a:hover {
+    background-color: unset !important;
 }
 </style>

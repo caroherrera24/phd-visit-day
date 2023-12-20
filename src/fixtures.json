@@ -15,7 +15,7 @@
                 "HCI",
                 "HRI"
             ],
-            "description": "For your project’s implementation milestone, you’ll need to create a Vue.js app from scratch with multiple views and employ prototyping techniques like data fixtures. In this homework, you’ll prepare for the implementation milestone by creating a Vue PWA from scratch, use Vue routing to support multiple pages, and practice using mock-data (data fixtures) to “fake out” a REST API."
+            "description": "A welcome address led by David Williamson, the Chair of the Department of Information Science, and Sue Fussel, the Director of Graduate Studies for the Department of Communications."
         },
         "lab-visit": {
             "recommended": true,
@@ -33,7 +33,7 @@
                 "Rapid Prototyping",
                 "Interactive Design"
             ],
-            "description": "Tip: Commit and push your changes every time you work on your project. Every time you commit and push you store your changes on the GitHub server. This acts as a back-up for your work. It also means that if you forget to submit before the deadline, there’s something already on the server that we can grade."
+            "description": "This is an hour where prospective students can visit different labs within the Information Science department."
         },
         "office-hours-mimno": {
             "recommended": true,
@@ -1159,7 +1159,7 @@
             },
             "david-williamson": {
                 "name": "David Williamson",
-                "subtitle": "Department Chair",
+                "subtitle": "Department Chair, Information Science",
                 "research_areas": [
                     "Economics & Information",
                     "Network Science"

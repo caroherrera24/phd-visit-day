@@ -1,8 +1,28 @@
-# PWA Link
+# PhD Visit Day PWA
 
-[PWA Link](https://pages.github.coecis.cornell.edu/info4340-2023sp/what-a-vue-project/)
+This is a PWA prototype I designed and developed as a part of a group project for a course (App Designing and Prototyping). The app is a designed for prospective Cornell PhD students going to the Information Science department's PhD Visit Day to help them decide where they want to attend for their graduate studies. The app is intended to guide the prospective students through their schedule for Visit Day and help them familiarize themselves with the local area and meet other students and Cornell faculty.
 
-## Image/Icon Sources
+[PWA Link](https://caroherrera24.github.io/phd-visit-day/)
+
+## Project Setup
+
+```sh
+npm install
+```
+
+### Compile and Hot-Reload for Development
+
+```sh
+npm run dev
+```
+
+### Compile and Minify for Production
+
+```sh
+npm run build
+```
+
+### Image/Icon Sources
 
 [student/faculty images](https://docs.google.com/document/d/1fH7BSY7GLUNHZZeqPOUmhwsaG-4t_OE_4pMOY1PQoFE/edit?usp=sharing)
 [Icon](https://icon-sets.iconify.design/bi/)
@@ -21,8 +41,8 @@
 
 [Flat Rock](https://www.google.com/url?sa=i&url=https%3A%2F%2Fseeswim.com%2Flocation%2Fflat-rock-ithaca%2F&psig=AOvVaw15ckvfkpNk0-NK1pxLgDgg&ust=1684192941700000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCNCV-ej59f4CFQAAAAAdAAAAABAD)
 [Flat Rock](https://i.pinimg.com/originals/89/2b/09/892b098aa25316e851cbd95c169daf51.jpg)
-[Flat Rock](https://tours.pocketsights.com/media/60/2a7da788cc90468698ab33708d96a577_medium.jpg
-[Flat Rock](https://encrypted-tbn0.gstatic.com/images?)q=tbn:ANd9GcS2iorzlVDNw0fLeJB7hDvI8LGLYSg41aQ13is8SCGKLenWCL4dy3eM5APkkYY29Uz51_c&usqp=CAU)
+[Flat Rock](https://tours.pocketsights.com/media/60/2a7da788cc90468698ab33708d96a577_medium.jpg)
+[Flat Rock](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2iorzlVDNw0fLeJB7hDvI8LGLYSg41aQ13is8SCGKLenWCL4dy3eM5APkkYY29Uz51_c&usqp=CAU)
 
 [Ithaca Farmers Market](https://www.google.com/url?sa=i&url=https%3A%2F%2Fithacavoice.org%2F2019%2F06%2Fthursday-night-hours-at-the-ithaca-farmers-market-start-today%2F&psig=AOvVaw3Qv3j-S6_CI7oIWQNRB-0s&ust=1684193027554000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCLDLx4v69f4CFQAAAAAdAAAAABAD)
 [Ithaca Farmers Market](https://i0.wp.com/cornellsun.com/wp-content/uploads/2021/08/BYT-IthacaFarmersMarket-36-scaled.jpg?fit=1170%2C781&ssl=1)
@@ -89,34 +109,3 @@
 [Cornell Botanic Gardens](https://www.onlyinyourstate.com/wp-content/uploads/2019/05/robison-york-state-herb.jpg)
 
 [Cornell Botanic Gardens](https://upload.wikimedia.org/wikipedia/commons/f/f6/Nevin_Welcome_Center_at_the_Cornell_Botanic_Gardens.jpg)
-
-
-
-This template should help get you started developing with Vue 3 in Vite.
-Sabrina made an edit
-
-## Recommended IDE Setup
-
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```

@@ -6,7 +6,7 @@ import Attractions from '@/components/Attractions.vue'
   <div class="tips" v-for="(fixture) in  fixtures.local_tips">
     <b-card style="padding: 10px;">
       <b-row align-h="center">
-        <b-row style="padding: 0px;">
+        <b-row class="more-padding" style="padding: 0px 10px;">
             <!-- <b-img :src="`${baseDir}./images/${fixture.img[0]}`" ></b-img> -->
 
           <b-carousel :interval="4000" controls indicators style="padding: 0px;">
@@ -23,7 +23,7 @@ import Attractions from '@/components/Attractions.vue'
 
         </b-row>
         <b-col>
-          <b-card-body style="padding: 30px 0px 0px 0px">
+          <b-card-body style="padding: 25px 0px 0px 0px">
             <b-card-text>
               <h3>{{ fixture.name }}</h3>
               {{ fixture.info }} <br /><br />
@@ -67,7 +67,7 @@ p {
 .card {
   padding-bottom: 3%;
   max-width: 100%;
-  margin-top: 6%;
+  margin-top: 3.5%;
 }
 
 .card-body {
@@ -91,6 +91,10 @@ img {
     border-radius: 25px;
     background-color: rgba(0,0,0,0);
     overflow: hidden;
+}
+
+.tips:last-child {
+  margin-bottom: 36px;
 }
 </style>
 
