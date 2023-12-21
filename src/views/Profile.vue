@@ -114,15 +114,16 @@ import IBiTelephoneFill from '~icons/bi/telephone-fill' //not working
                         <span class="icon">
                             <i-bi-link />
                         </span>
-                        <a :href="fixtures.faculty[$route.params.person].website">{{ fixtures.faculty[
-                            $route.params.person].website }}</a>
+                        <a :href="fixtures.faculty[$route.params.person].website">
+                            {{ fixtures.faculty[$route.params.person].website }}
+                        </a>
                     </span>
                     <!-- Email -->
                     <span class="pill" id="email">
                         <span class="icon">
                             <i-bi-envelope />
                         </span>
-                        <a :href="'mailto:' + fixtures.students[$route.params.person].email">
+                        <a :href="'mailto:' + fixtures.faculty[$route.params.person].email">
                             {{ fixtures.faculty[$route.params.person].email }}
                         </a>
                     </span>
