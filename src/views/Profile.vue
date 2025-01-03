@@ -248,12 +248,12 @@ h1 {
 }
 
 #website {
-    background-color: #e2f2df;
-    color: #557450;
+    background-color: #DBEFD7;
+    color: #536F4D;
 }
 
 #website a {
-    color: #557450;
+    color: #536F4D;
 }
 
 .content-row {
