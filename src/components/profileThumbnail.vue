@@ -38,11 +38,10 @@ export default {
 
 <template>
 
-  <b-list-group-item id="profile-row"
-    class="" style="border: none; width: 100%; padding-left: 8px;">
+  <b-list-group-item id="profile-row" class="" style="border: none; width: 100%; padding-left: 8px;">
     <b-button style="background-color: transparent; border: none; width: 100%; text-align: left; padding: 0px;" :to="`/people/${currRoute}`">
       <div class="flex">
-          <b-avatar class="mr-3" :src="`${baseDir}images/${currFixture.img}`" size='3rem'></b-avatar>
+          <b-avatar class="mr-3" :src="`${baseDir}images/${currFixture.img}`" alt="" size='3rem'></b-avatar>
           <p class="mr-auto name">{{ currFixture.name }} <span class='subtitle'>&#x2022; {{ currFixture.subtitle
     }}</span></p>
     </div>
