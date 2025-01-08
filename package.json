@@ -4,9 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "cross-env DEPLOY=github vite build",
     "preview": "vite preview",
-    "prepublish": "npm run build",
     "publish": "gh-pages -t -d dist"
   },
   "dependencies": {
