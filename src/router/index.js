@@ -89,6 +89,11 @@ const router = createRouter({
       component: LocalTips,
     },
   ],
+  scrollBehavior() {
+    return new Promise((resolve) => {
+      resolve({ left: 0, top: 0 })
+    })
+  }
 });
 
 export default router;

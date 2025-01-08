@@ -6,6 +6,7 @@
   padding: 2rem 0.9rem;
 
   font-weight: normal;
+  overflow-x: hidden;
 }
 
 a,
